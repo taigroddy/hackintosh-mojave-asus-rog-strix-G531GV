@@ -1,0 +1,53 @@
+
+Clover Installer r5120 (33816ae90) (installer library v1.1.6), 2020-08-24 12:33:03
+macOS Version 10.13.6 (Build 17G66)
+SELF = /Applications/Clover.app/Contents/MacOS/CloverDaemonNew
+Backup made at:
+/Users/taichau/Desktop/CloverBackUp/Generic Flash Disk Media/r0000_2020-08-24_12-30-08/EFI.
+Target volume: /Volumes/EFI
+BSD Name:      disk2s1
+Filesystem:    FAT32
+Is internal:   false
+Is writable:   true
+Installation type: UEFI
+
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *128.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS MacOS                   127.2 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS DATA                    499.8 GB   disk1s2
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *16.1 GB    disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS 10146EasyMBR18G103      7.7 GB     disk2s2
+
+
+
+
+Installing/Updating Clover:
++ ../BOOT/BOOTX64.efi
++ ../CLOVER/CLOVERX64.efi
+
+Installing/Updating drivers:
+
+Installing/Updating tools:
++ ../tools/bdmesg.efi
++ ../tools/Shell32.efi
++ ../tools/Shell64.efi
++ ../tools/Shell64U.efi
+
+Installing/Updating docs:
++ ../doc/bcfg.txt
++ ../doc/boot1f32-install.sh
++ ../doc/HowToFixDsdt.txt
++ ../doc/HowToInstallOSX.txt
++ ../doc/UEFI boot with Clover.rtf
